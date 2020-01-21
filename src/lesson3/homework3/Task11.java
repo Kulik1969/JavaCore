@@ -9,7 +9,7 @@ public class Task11 {
         System.out.println("Угдай число с 3 попыток от 0 до 9");
         for (int i = 3; i > 0; i--) {
             System.out.println("Введи свой ответ: (для выхода из игры, просто нажмите Enter)");
-            int questionNum = scanner.nextInt(); //try не будем ставить, так как еще не узучали :)
+            int questionNum = scanner.nextInt();
             if (questionNum == number) {
                 System.out.println("Вы угадали число, молодец!");
                 break;
